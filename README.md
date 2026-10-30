@@ -11,4 +11,6 @@ Profile details are in `_config.yml`, `_data/authors.yml`, and `_pages/about.md`
 
 ## Site configuration
 
-Configured as a GitHub Pages project site at https://spadonidittrichmt848264.github.io/LJT-Homepage/. The existing Jekyll build and deployment workflow is retained, along with the upstream license.
+Configured as a GitHub Pages project site at https://spadonidittrichmt848264.github.io/LJT-Homepage/. The upstream license is retained.
+
+The Jekyll workflow builds the site. To publish it, a repository administrator must enable Pages under **Settings → Pages** and select **GitHub Actions** as the source. The deployment job runs after Pages is enabled. Enabling Pages is separate from the build and requires repository administration access.
